@@ -1,12 +1,12 @@
 import "./App.css";
-import { Wrapper } from "./components/Wrapper";
+import { Wrapper } from "./components/wrapper";
+import { Screen } from "./components/screen";
 
 function App() {
   return (
     <Wrapper>
-      <div className="App">
-        <header>CALCULATOR</header>
-      </div>
+      <Screen value={0} />
+      <ButtonBox></ButtonBox>
     </Wrapper>
   );
 }
