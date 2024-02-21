@@ -1,4 +1,5 @@
 .wrapper{
+    justify-content: center;
     width: 350px;
     height: 550px;
     padding: 10px;
@@ -14,7 +15,7 @@
     padding: 0 10px;
     display: flex;
     justify-content: flex-end;
-    background-color: rgb(63, 166, 221);
+    background-color: rgb(109, 188, 230);
     border-radius: 10px;
     align-items: center;
     box-sizing: border-box;
@@ -25,7 +26,7 @@
 .buttonBox{
     width: 100%;
     height: calc(100% - 110px);
-    background-color: aqua;
+    background-color: rgb(51, 75, 75);
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(5, 1fr);
@@ -43,14 +44,14 @@
 }
 
 button:hover {
-  background-color: rgb(61, 43, 184);
+  background-color: rgb(88, 141, 211);
 }
 
 .equals {
   grid-column: 3 / 5;
-  background-color: rgb(243, 61, 29);
+  background-color: rgb(76, 134, 206);
 }
 
 .equals:hover {
-  background-color: rgb(228, 39, 15);
+  background-color: rgb(88, 141, 211);
 }
