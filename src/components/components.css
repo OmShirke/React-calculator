@@ -1,5 +1,6 @@
 .wrapper{
-    
+    margin-top: 5%;
+    margin-left: 38%;
     width: 350px;
     height: 550px;
     padding: 10px;
@@ -49,7 +50,7 @@ button:hover {
 
 .equals {
   grid-column: 3 / 5;
-  background-color: rgb(76, 134, 206);
+  background-color: rgb(89, 154, 234);
 }
 
 .equals:hover {
