@@ -125,7 +125,7 @@ const App = () => {
 
   return (
     <Wrapper>
-      <Screen value={calc.num ? calc.num : calc.res} />
+      <Screen value={calc.num || calc.sign || calc.res} />
       <ButtonBox>
         {btnValues.flat().map((btn, i) => {
           return (
